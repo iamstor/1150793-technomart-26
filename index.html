@@ -8,21 +8,21 @@
   <header>
 
 
-      <div id="container">
+      <div class="container">
 
-       <div id="left"> <img src="img.jpg" width="240" height="120" alt="Логотип Техномаркт"></div>
+       <div class="logo"> <img src="img.jpg" width="240" height="120" alt="Логотип Техномаркт"></div>
 
-          <div id="center">
+          <div class="searching">
               <form>
               <input type="text" placeholder="Искать здесь...">
               <button type="submit"></button>
                </form>
           </div>
 
-          <div id="right">
+          <div class="action-group">
               <ul>
-                  <li>Закладки</li>
-                  <li>Корзина</li>
+                  <li><a>Закладки</a></li>
+                  <li><a>Корзина</a></li>
                   <li>Оформить заказ</li>
               </ul>
           </div>
@@ -36,79 +36,89 @@
 
 
 
-<div>
-    <p aling="left">Интернет-магазин строительных материалов и инструментов для ремонта</p>
-
-
-        <p align="center">+7 (812) 555-05-55</p>
-    <p align="center">г.Санкт-Петербург, ул.Б.Конюшенная,д.19/8</p>
-
-    <style>
-        ul.hr {
-            margin: 0;
-            padding: 4px;
-        }
-        ul.hr li {
-            display: inline;
-            margin-right: 5px;
-            border: 1px solid #000;
-            padding: 3px;
-        }
-
-    </style>
-
-    <ul class="hr">
-        <li><a href = "main.html">Главная </a></li>
-        <li><a href = "company.html">Компания</a></li>
-        <li><a href = "catalog.html">Каталог</a></li>
-        <li><a href = "news.html">Новости</a></li>
-        <li><a href = "special.html">Спецпредложения</a></li>
-        <li><a href = "delivery.html">Доставка</a></li>
-        <li><a href = "contacts.html">Контакты</a></li>
-
-    </ul>
-
+<div class="header-content">
+    <p>Интернет-магазин строительных материалов и инструментов для ремонта</p>
 </div>
+      <p class="center">+7 (812) 555-05-55</p>
+      <p align="center">г.Санкт-Петербург, ул.Б.Конюшенная,д.19/8</p>
+
+      <div>
+
+          <div>
+              <ul>
+                  <li>
+                      <a href="button">Вход</a>
+                  </li>
+                  <li>
+                      <a href="button">Регистрация</a>
+                  </li>
+              </ul>
+          </div>
+
+
+      </div>
+
+      <div>
+          <ul class="hr">
+              <li><a href = "main.html">Главная </a></li>
+              <li><a href = "company.html">Компания</a></li>
+              <li><a href = "catalog.html">Каталог</a></li>
+              <li><a href = "news.html">Новости</a></li>
+              <li><a href = "special.html">Спецпредложения</a></li>
+              <li><a href = "delivery.html">Доставка</a></li>
+              <li><a href = "contacts.html">Контакты</a></li>
+
+          </ul>
+      </div>
 
 
 
 
 
   </header>
+
+
    <body>
-   <div class="left">
-       <h1>КОМПАНИЯ "ТЕХНОМАРТ"</h1>
-       <p>Настоящий мужской шоппинг начинается здесь!Огромный выбор товаров для ребонта и строительства не оставит равнодушным любителей секономить на гастарбайтерах.</p>
-       <p>Мы можем доставить ваш товар в самые отдаленные точки России!</p>
-       <p>Техномарт работает со многими транспортными компаниями:</p>
-       <ul>
-           <li>
-               <h3>Деловые линии</h3>
-           </li>
-           <li>
-               <h3>Автотрейдинг</h3>
-           </li>
-           <li>
-               <h3>ЖелДорЭкспедиция</h3>
-           </li>
 
-           <div href="company.css">Подробнее о компании</div>
+   <div>
+       <div class="left">
+           <h1>КОМПАНИЯ "ТЕХНОМАРТ"</h1>
+           <p>Настоящий мужской шоппинг начинается здесь!Огромный выбор товаров для ребонта и строительства не оставит равнодушным любителей секономить на гастарбайтерах.</p>
+           <p>Мы можем доставить ваш товар в самые отдаленные точки России!</p>
+           <p>Техномарт работает со многими транспортными компаниями:</p>
+           <ul>
+               <li>
+                   <p>Деловые линии</p>
+               </li>
+               <li>
+                   <p>Автотрейдинг</p>
+               </li>
+               <li>
+                   <p>ЖелДорЭкспедиция</p>
+               </li>
 
-       </ul>
+               <div href="company.css">Подробнее о компании</div>
+
+           </ul>
+       </div>
+
+
+       <div class="right">
+           <h2>Контакты</h2>
+           <p>Вы можете забрать товар сами, заехав в наш офис:</p>
+           <a>
+               <img src="img2.jpg" width="240" height="120" alt="Карта">
+           </a>
+
+
+           <a> <div href="mail.ru">Заблудились?Напишите нам</div></a>
+
+       </div>
+
+
    </div>
 
 
-<div class="right">
-    <h2>Контакты</h2>
-    <p>Вы можете забрать товар сами, заехав в наш офис:</p>
-    <a>
-        <img src="img2.jpg" width="240" height="120" alt="Карта">
-    </a>
-
-
-  <a> <div href="mail.ru">Заблудились?Напишите нам</div></a>
-
- </div>
 
    </body>
 
@@ -116,7 +126,7 @@
 
 
 
-  </body>
+
 
 
 
@@ -159,6 +169,9 @@
 
     </div>
   <div>
+
+      <ul>  </ul>
+
       <a>
           <img src="vk.jpg" width="240" height="120" alt="Логотип Vk">
       </a>
@@ -173,10 +186,13 @@
 
 
     <div>
-        <p>Обратная связь</p>
-        <p>mail@htmlacademy.ru</p>
-        <a>Разработано</a>
-        <p>htmlacademy.ru</p>
+        <div><p>Обратная связь</p>
+            <p>mail@htmlacademy.ru</p> </div>
+        <div>
+            <a>Разработано</a>
+            <p>htmlacademy.ru</p>
+        </div>
+
 
     </div>
 
